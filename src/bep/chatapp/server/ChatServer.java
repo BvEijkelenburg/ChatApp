@@ -5,13 +5,13 @@ import java.net.*;
 import java.util.*;
 
 public class ChatServer {
-    final static int port = 8080;
+    private final static int PORT = 8080;
 
     public static void main(String[] args) throws IOException {
         List<PrintWriter> allClients = new ArrayList<PrintWriter>();
 
-        try (ServerSocket ss = new ServerSocket(port)) {
-            System.out.printf("Server started on port %d!\n", port);
+        try (ServerSocket ss = new ServerSocket(PORT)) {
+            System.out.printf("Server started on port %d!\n", PORT);
 
             while (true) {
                 try {
