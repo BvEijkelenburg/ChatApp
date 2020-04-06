@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="259.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bep.les2.practicum2_3.client.ChatAppController">
+<AnchorPane prefHeight="259.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bep.chatapp.client.ChatAppController">
    <children>
       <TextArea fx:id="chatBox" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="450.0" />
       <Label layoutX="14.0" layoutY="226.0" text="name:" />
