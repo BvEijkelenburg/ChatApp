@@ -15,15 +15,11 @@ public class ChatAppController {
     @FXML private TextField chatName;
 
     private Socket verbinding;
-    private PrintWriter serverWriter;
 
     public ChatAppController() {
         /*
          * Open hier een socket naar de server (waarschijnlijk localhost),
          * en ken deze socket toe (assignment) aan het attribuut 'verbinding'.
-         *
-         * Maak een PrintWriter-object waarmee je naar de outputstream van de
-         * socket kunt schrijven, en ken deze toe (assignment) aan attribuut 'serverWriter'.
          *
          * Start een MessageListener-thread (zie onder).
          * Geef een melding in de chatBox als er iets misgaat (exception).

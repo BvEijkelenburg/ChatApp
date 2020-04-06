@@ -17,6 +17,7 @@ public class ChatClient extends Application {
         stage.setOnCloseRequest(e -> controller.closeConnection());
         stage.setTitle("ChatApplication 1.0");
         stage.setScene(new Scene(root));
+        stage.setResizable(false);
         stage.show();
     }
 
