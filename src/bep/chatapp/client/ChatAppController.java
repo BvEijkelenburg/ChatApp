@@ -14,7 +14,7 @@ public class ChatAppController {
     @FXML private Button submit;
     @FXML private TextField chatName;
 
-    private Socket verbinding;
+    private Socket connection;
     private PrintWriter serverWriter;
 
     public ChatAppController() {
