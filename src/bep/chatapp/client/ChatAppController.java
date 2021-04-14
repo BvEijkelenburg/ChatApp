@@ -20,7 +20,7 @@ public class ChatAppController {
     public ChatAppController() {
         /*
          * Open hier een socket naar de server (waarschijnlijk localhost),
-         * en ken deze socket toe (assignment) aan het attribuut 'verbinding'.
+         * en ken deze socket toe (assignment) aan het attribuut 'connection'.
          *
          * Start een MessageListener-thread (zie onder).
          * Geef een melding in de chatBox als er iets misgaat (exception).
